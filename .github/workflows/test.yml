@@ -23,5 +23,10 @@ jobs:
           pip install -r requirements.txt
           pip install pytest
 
+      - name: Debug file structure
+        run: |
+          echo "Current Directory: $(pwd)"
+          ls -R
+
       - name: Run tests
-        run: pytest ./tests/test_app.py
+        run: pytest tests/test_app.py
