@@ -7,6 +7,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY my_flask_app /app/my_flask_app
 
-ENV FLASK_APP=my_flask_app.app
+# This is the key change:
+ENV FLASK_APP=my_flask_app
 
 CMD ["flask", "run", "--host=0.0.0.0", "--port=5000"]
