@@ -82,6 +82,7 @@ Using `pytest`, a test file is included to ensure the root route returns a 200 s
 ## 🔐 Secrets and Environment
 
 GitHub secrets used:
+
 - `AWS_ACCESS_KEY_ID`
 - `AWS_SECRET_ACCESS_KEY`
 
@@ -119,7 +120,5 @@ Jorge Allende
 ---
 
 ## 🖼️ Architecture Diagram
-
-![Architecture Diagram](link-to-aws-diagram-if-uploaded-on-github-or-imgur)
 
 ![Flask App Diagram](flask-app-diagram.png)
