@@ -53,6 +53,7 @@ The application is a simple Python Flask app that responds with a welcome messag
 ## 📦 Docker
 
 Sample Dockerfile:
+
 ```dockerfile
 FROM python:3.12.3-slim
 WORKDIR /app
@@ -96,6 +97,7 @@ Make sure you **do not commit these** to source control.
 - pytest
 
 Install with:
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -117,5 +119,7 @@ Jorge Allende
 ---
 
 ## 🖼️ Architecture Diagram
+
+![Architecture Diagram](link-to-aws-diagram-if-uploaded-on-github-or-imgur)
 
 ![Flask App Diagram](flask-app-diagram.png)
